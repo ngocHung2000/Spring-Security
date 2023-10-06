@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: banking-service
+  security:
+    user:
+      name: ngochung1809
+      password: Ngochung1809!

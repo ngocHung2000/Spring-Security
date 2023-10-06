@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: banking-service
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/bank-project
+    username: ngochung1809
+    password: Ngochung1809!
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
